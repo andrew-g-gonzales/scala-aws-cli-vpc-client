@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="87b088ba-f6d1-4afd-b1dd-ae5e5462e48e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Class" />
+        <option value="Scala Object" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1WAfqDu5iDzoMCDRyYq9IysRRoh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.19111112" />
+    <property name="scala_project_settings_configurable.last_selected_tab_index" value="0" />
+    <property name="settings.editor.selected.configurable" value="sbt.project.settings.configurable" />
+  </component>
+  <component name="RunManager" selected="JUnit.TestDescribeVpcsResponseJSON.testParseVPCResultJson">
+    <configuration name="TestAwsCliS3ApiClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="scala-aws-cli-vpc-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stmarkssolutions.aws.cli.vpc.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stmarkssolutions.aws.cli.vpc.client" />
+      <option name="MAIN_CLASS_NAME" value="com.stmarkssolutions.aws.cli.vpc.client.TestAwsCliS3ApiClient" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDescribeVpcsResponseJSON.testParseVPCResultJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="scala-aws-cli-vpc-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stmarkssolutions.aws.cli.vpc.model.describe.vpcs.json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stmarkssolutions.aws.cli.vpc.model.describe.vpcs.json" />
+      <option name="MAIN_CLASS_NAME" value="com.stmarkssolutions.aws.cli.vpc.model.describe.vpcs.json.TestDescribeVpcsResponseJSON" />
+      <option name="METHOD_NAME" value="testParseVPCResultJson" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestExecuteCliCommand.test_describe_vpcs_plain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="scala-aws-cli-vpc-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stmarkssolutions.aws.cli.vpc.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stmarkssolutions.aws.cli.vpc.client" />
+      <option name="MAIN_CLASS_NAME" value="com.stmarkssolutions.aws.cli.vpc.client.TestExecuteCliCommand" />
+      <option name="METHOD_NAME" value="test_describe_vpcs_plain" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestExecuteCliCommand.test_describe_vpcs_with_filter_parameters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="scala-aws-cli-vpc-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stmarkssolutions.aws.cli.vpc.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stmarkssolutions.aws.cli.vpc.client" />
+      <option name="MAIN_CLASS_NAME" value="com.stmarkssolutions.aws.cli.vpc.client.TestExecuteCliCommand" />
+      <option name="METHOD_NAME" value="test_describe_vpcs_with_filter_parameters" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStringUtil" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="scala-aws-cli-vpc-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stmarkssolutions.aws.cli.vpc.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stmarkssolutions.aws.cli.vpc.util" />
+      <option name="MAIN_CLASS_NAME" value="com.stmarkssolutions.aws.cli.vpc.util.TestStringUtil" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestDescribeVpcsResponseJSON.testParseVPCResultJson" />
+        <item itemvalue="JUnit.TestExecuteCliCommand.test_describe_vpcs_with_filter_parameters" />
+        <item itemvalue="JUnit.TestExecuteCliCommand.test_describe_vpcs_plain" />
+        <item itemvalue="JUnit.TestStringUtil" />
+        <item itemvalue="JUnit.TestAwsCliS3ApiClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="scala-aws-cli-vpc-client" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="scala-aws-cli-vpc-client [file:/C:/Users/gonza109/Desktop/PRISM-SafeDx_SVN/scala-aws-cli-vpc-client/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="scala-aws-cli-vpc-client-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3157700491499" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="2764090682" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="1396028727" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../20190319/AWS_Glue_Spark_S3_Large_File_Read-master" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../20190319/NY_Restaurant_Inspection_Data_Spark-master" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../20190327/svn_545725_java/trunk/545725_GPDV_EnterpriseData_Verity" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../20190329/svn_545725_java/545725_GPDV_EnterpriseData_Verity" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../20190411/545725_GPDV_EnterpriseData_Verity" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../20190612/ClinicalTrialsGov_Spark" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../20190612/NY_Restaurant_Inspection_Data_Spark-master" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../20190620/ClinicalTrialsGov_Spark_20190620_2" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../20190702/hello-slick-3.1" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Verity_SVN/545725_GPDV_EnterpriseData_Verity_20190410" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Verity_SVN/545725_GPDV_EnterpriseData_Verity_20190418" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Verity_SVN/545725_GPDV_EnterpriseData_Verity_20190420" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Verity_SVN/545725_GPDV_EnterpriseData_Verity_20190422" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Verity_SVN/545725_GPDV_EnterpriseData_Verity_20190424" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Verity_SVN/545725_GPDV_EnterpriseData_Verity_20190429" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Verity_SVN/545725_GPDV_EnterpriseData_Verity_20190515" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Verity_SVN/545725_GPDV_EnterpriseData_Verity_20190531" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Verity_SVN/545725_GPDV_EnterpriseData_Verity_20190531_2" value="PREVIEW" />
+        <entry key="$USER_HOME$/Scala/scala_documentum_client" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ScalaProjectSettings">
+    <option name="intInjectionMapping">
+      <map>
+        <entry key="xml" value="XML" />
+      </map>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\gonza109\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87b088ba-f6d1-4afd-b1dd-ae5e5462e48e" name="Default Changelist" comment="" />
+      <created>1578597508097</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578597508097</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="356" y="-812" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1579372142487">
+      <screen x="-295" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="356" y="-812" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728/-295.-1080.1920.1040@-295.-1080.1920.1040" timestamp="1579372142487" />
+    <state x="570" y="-790" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728/0.-1050.1680.1010@0.-1050.1680.1010" timestamp="1579110774347" />
+    <state x="563" y="-856" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1578599083512">
+      <screen x="0" y="-1050" width="1680" height="1010" />
+    </state>
+    <state x="563" y="-856" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.728/0.-1050.1680.1010@0.-1050.1680.1010" timestamp="1578599083512" />
+    <state x="620" y="-790" width="760" height="564" key="FileChooserDialogImpl" timestamp="1579207013424">
+      <screen x="0" y="-1050" width="1680" height="1010" />
+    </state>
+    <state x="620" y="-790" width="760" height="564" key="FileChooserDialogImpl/0.0.1366.728/0.-1050.1680.1010@0.-1050.1680.1010" timestamp="1579207013424" />
+    <state width="1877" height="189" key="GridCell.Tab.0.bottom" timestamp="1579373915817">
+      <screen x="-295" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="189" key="GridCell.Tab.0.bottom/0.0.1366.728/-295.-1080.1920.1040@-295.-1080.1920.1040" timestamp="1579373915817" />
+    <state width="1681" height="272" key="GridCell.Tab.0.bottom/0.0.1366.728/0.-1050.1680.1010@0.-1050.1680.1010" timestamp="1579111619991" />
+    <state width="1367" height="214" key="GridCell.Tab.0.bottom/0.0.1366.728/0.-1050.1680.1010@0.0.1366.728" timestamp="1579117054483" />
+    <state width="1877" height="189" key="GridCell.Tab.0.center" timestamp="1579373915816">
+      <screen x="-295" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="189" key="GridCell.Tab.0.center/0.0.1366.728/-295.-1080.1920.1040@-295.-1080.1920.1040" timestamp="1579373915816" />
+    <state width="1681" height="272" key="GridCell.Tab.0.center/0.0.1366.728/0.-1050.1680.1010@0.-1050.1680.1010" timestamp="1579111619991" />
+    <state width="1367" height="214" key="GridCell.Tab.0.center/0.0.1366.728/0.-1050.1680.1010@0.0.1366.728" timestamp="1579117054483" />
+    <state width="1877" height="189" key="GridCell.Tab.0.left" timestamp="1579373915816">
+      <screen x="-295" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="189" key="GridCell.Tab.0.left/0.0.1366.728/-295.-1080.1920.1040@-295.-1080.1920.1040" timestamp="1579373915816" />
+    <state width="1681" height="272" key="GridCell.Tab.0.left/0.0.1366.728/0.-1050.1680.1010@0.-1050.1680.1010" timestamp="1579111619990" />
+    <state width="1367" height="214" key="GridCell.Tab.0.left/0.0.1366.728/0.-1050.1680.1010@0.0.1366.728" timestamp="1579117054483" />
+    <state width="1877" height="189" key="GridCell.Tab.0.right" timestamp="1579373915816">
+      <screen x="-295" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="189" key="GridCell.Tab.0.right/0.0.1366.728/-295.-1080.1920.1040@-295.-1080.1920.1040" timestamp="1579373915816" />
+    <state width="1681" height="272" key="GridCell.Tab.0.right/0.0.1366.728/0.-1050.1680.1010@0.-1050.1680.1010" timestamp="1579111619991" />
+    <state width="1367" height="214" key="GridCell.Tab.0.right/0.0.1366.728/0.-1050.1680.1010@0.0.1366.728" timestamp="1579117054483" />
+    <state x="667" y="-678" key="NewModule_or_Project.wizard" timestamp="1579207018491">
+      <screen x="0" y="-1050" width="1680" height="1010" />
+    </state>
+    <state x="667" y="-678" key="NewModule_or_Project.wizard/0.0.1366.728/0.-1050.1680.1010@0.-1050.1680.1010" timestamp="1579207018491" />
+    <state x="320" y="-970" key="SettingsEditor" timestamp="1578601313863">
+      <screen x="0" y="-1050" width="1680" height="1010" />
+    </state>
+    <state x="320" y="-970" key="SettingsEditor/0.0.1366.728/0.-1050.1680.1010@0.-1050.1680.1010" timestamp="1578601313863" />
+    <state x="222" y="-820" key="new project wizard" timestamp="1578599353094">
+      <screen x="0" y="-1050" width="1680" height="1010" />
+    </state>
+    <state x="222" y="-820" key="new project wizard/0.0.1366.728/0.-1050.1680.1010@0.-1050.1680.1010" timestamp="1578599353094" />
+  </component>
+</project>

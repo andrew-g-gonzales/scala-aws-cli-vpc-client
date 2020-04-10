@@ -1,0 +1,1696 @@
+{
+    "Subnets": [
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az4",
+            "AvailableIpAddressCount": 251,
+            "CidrBlock": "158.117.153.0/24",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-0380aac5b87acff25",
+            "VpcId": "vpc-59a4013c",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "Apollo-Subnets"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "DEVProxy2"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "ApolloAZ2"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/Apollo-Subnets/68d5f310-fc17-11e9-aa08-12f4ed1177e6"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "DEV"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-0380aac5b87acff25"
+        },
+        {
+            "AvailabilityZone": "us-east-1b",
+            "AvailabilityZoneId": "use1-az6",
+            "AvailableIpAddressCount": 471,
+            "CidrBlock": "172.21.84.0/22",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-09b8bc51",
+            "VpcId": "vpc-59a4013c",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "WebSubnet4"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "DEVWebSubnet4"
+                },
+                {
+                    "Key": "Project",
+                    "Value": "Infrastructure"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "EntSvcs-websubnets-3-4"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "DEV"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/EntSvcs-websubnets-3-4/4df30cc0-5a4b-11e6-b5d9-500c217b26c6"
+                },
+                {
+                    "Key": "StackAlias",
+                    "Value": "EntSvcs-websubnets-3-4"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-09b8bc51"
+        },
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az4",
+            "AvailableIpAddressCount": 113,
+            "CidrBlock": "172.29.144.0/25",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-0c273463980e0aac4",
+            "VpcId": "vpc-0ae88dd7c76d73c4a",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Creator",
+                    "Value": "botocore-session-1551387215"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/dev-backend-subnets/eaca9c60-3b9a-11e9-92b4-128fc503e968"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "dev-backend-subnets"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "dev-backend-web-subnet1"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "DmzWebSubnetAz1"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-0c273463980e0aac4"
+        },
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az4",
+            "AvailableIpAddressCount": 41,
+            "CidrBlock": "172.21.81.0/24",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-8056acf7",
+            "VpcId": "vpc-59a4013c",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "kubernetes.io/cluster/ConverseEKS_Dev",
+                    "Value": "shared"
+                },
+                {
+                    "Key": "StackAlias",
+                    "Value": "EntSvcs-DEV"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/EntSvcs-DEV/6ca74ce0-0e7a-11e4-8970-50e2416294a8"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "EntSvcs-DEV"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "WebSubnet1"
+                },
+                {
+                    "Key": "kubernetes.io/cluster/ConverseEKS_UAT",
+                    "Value": "shared"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "DEVWebSubnet1"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "DEV"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-8056acf7"
+        },
+        {
+            "AvailabilityZone": "us-east-1b",
+            "AvailabilityZoneId": "use1-az6",
+            "AvailableIpAddressCount": 230,
+            "CidrBlock": "172.21.92.0/24",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-0ea84f57",
+            "VpcId": "vpc-59a4013c",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "DEV"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "EntSvcs-DEV"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "AppSubnet2"
+                },
+                {
+                    "Key": "StackAlias",
+                    "Value": "EntSvcs-DEV"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/EntSvcs-DEV/6ca74ce0-0e7a-11e4-8970-50e2416294a8"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "DEVAppSubnet2"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-0ea84f57"
+        },
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az4",
+            "AvailableIpAddressCount": 10,
+            "CidrBlock": "172.21.67.0/28",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-653b2f2e",
+            "VpcId": "vpc-59a4013c",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Environment",
+                    "Value": "DEV"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "DEVApiGwSubnetA"
+                },
+                {
+                    "Key": "Project",
+                    "Value": "Infrastructure"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "ApiGwSubnetA"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/apigw-subnet/0ad97480-10d2-11e8-a069-503aca4a5861"
+                },
+                {
+                    "Key": "StackAlias",
+                    "Value": "apigw-subnet"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "apigw-subnet"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-653b2f2e"
+        },
+        {
+            "AvailabilityZone": "us-east-1b",
+            "AvailabilityZoneId": "use1-az6",
+            "AvailableIpAddressCount": 114,
+            "CidrBlock": "172.29.145.0/25",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-04cec3c64745a983d",
+            "VpcId": "vpc-0ae88dd7c76d73c4a",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "dev-backend-subnets"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "botocore-session-1551387215"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "dev-backend-web-subnet2"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "DmzWebSubnetAz2"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/dev-backend-subnets/eaca9c60-3b9a-11e9-92b4-128fc503e968"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-04cec3c64745a983d"
+        },
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az4",
+            "AvailableIpAddressCount": 62,
+            "CidrBlock": "172.21.101.0/24",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-8c56acfb",
+            "VpcId": "vpc-59a4013c",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Environment",
+                    "Value": "DEV"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "DEVDBSubnet1"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "EntSvcs-DEV"
+                },
+                {
+                    "Key": "StackAlias",
+                    "Value": "EntSvcs-DEV"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/EntSvcs-DEV/6ca74ce0-0e7a-11e4-8970-50e2416294a8"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "DBSubnet1"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-8c56acfb"
+        },
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az4",
+            "AvailableIpAddressCount": 423,
+            "CidrBlock": "172.21.76.0/22",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-a343b7ea",
+            "VpcId": "vpc-59a4013c",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Project",
+                    "Value": "Infrastructure"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/EntSvcs-websubnets-3-4/4df30cc0-5a4b-11e6-b5d9-500c217b26c6"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "DEVWebSubnet3"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "EntSvcs-websubnets-3-4"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "DEV"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "WebSubnet3"
+                },
+                {
+                    "Key": "StackAlias",
+                    "Value": "EntSvcs-websubnets-3-4"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-a343b7ea"
+        },
+        {
+            "AvailabilityZone": "us-east-1b",
+            "AvailabilityZoneId": "use1-az6",
+            "AvailableIpAddressCount": 250,
+            "CidrBlock": "192.168.1.0/24",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-53c8a80b",
+            "VpcId": "vpc-bbe512dc",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Creator",
+                    "Value": "bubinakj"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "Dev-quicksite-subnet2"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-53c8a80b"
+        },
+        {
+            "AvailabilityZone": "us-east-1b",
+            "AvailabilityZoneId": "use1-az6",
+            "AvailableIpAddressCount": 9,
+            "CidrBlock": "172.21.82.0/24",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-01a84f58",
+            "VpcId": "vpc-59a4013c",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/EntSvcs-DEV/6ca74ce0-0e7a-11e4-8970-50e2416294a8"
+                },
+                {
+                    "Key": "StackAlias",
+                    "Value": "EntSvcs-DEV"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "DEVWebSubnet2"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "WebSubnet2"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "EntSvcs-DEV"
+                },
+                {
+                    "Key": "kubernetes.io/cluster/ConverseEKS_Dev",
+                    "Value": "shared"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "DEV"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                },
+                {
+                    "Key": "kubernetes.io/cluster/ConverseEKS_UAT",
+                    "Value": "shared"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-01a84f58"
+        },
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az4",
+            "AvailableIpAddressCount": 10,
+            "CidrBlock": "172.29.144.128/28",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-02b4d2761b5f1a432",
+            "VpcId": "vpc-0ae88dd7c76d73c4a",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/dev-backend-subnets/eaca9c60-3b9a-11e9-92b4-128fc503e968"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "OgwAz1"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "dev-backend-subnets"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "botocore-session-1551387215"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "dev-backend-ogw-subnet1"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-02b4d2761b5f1a432"
+        },
+        {
+            "AvailabilityZone": "us-east-1b",
+            "AvailabilityZoneId": "use1-az6",
+            "AvailableIpAddressCount": 239,
+            "CidrBlock": "10.2.2.0/24",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-1e14a146",
+            "VpcId": "vpc-9b2015ff",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/EntSvcs-PublicOnly/30ed4fe0-e49f-11e5-97e4-500c286f3262"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                },
+                {
+                    "Key": "Project",
+                    "Value": "Infrastructure"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "DEVPublicOnlySubnet2"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "PublicOnlySubnet2"
+                },
+                {
+                    "Key": "StackAlias",
+                    "Value": "EntSvcs-PublicOnly"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "EntSvcs-PublicOnly"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "DEV"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-1e14a146"
+        },
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az4",
+            "AvailableIpAddressCount": 251,
+            "CidrBlock": "172.21.115.0/24",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-0f2880694039393e9",
+            "VpcId": "vpc-59a4013c",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "DEVDominoExecSubnetA"
+                },
+                {
+                    "Key": "Project",
+                    "Value": "dominodatalab"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "DominoExecSubnetA"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "DEV-Domino-MAE-Subnets"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "DEV"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/DEV-Domino-MAE-Subnets/2dc0bbd0-cbf2-11e8-86b0-50d5ca632682"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-0f2880694039393e9"
+        },
+        {
+            "AvailabilityZone": "us-east-1b",
+            "AvailabilityZoneId": "use1-az6",
+            "AvailableIpAddressCount": 1949,
+            "CidrBlock": "10.2.40.0/21",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-0f016854",
+            "VpcId": "vpc-9b2015ff",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "EntSvcs-PublicOnly"
+                },
+                {
+                    "Key": "StackAlias",
+                    "Value": "EntSvcs-PublicOnly"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "DEV"
+                },
+                {
+                    "Key": "Project",
+                    "Value": "Infrastructure"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "PubOnlySshSubnet2"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/EntSvcs-PublicOnly/30ed4fe0-e49f-11e5-97e4-500c286f3262"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "DEVPubOnlySshSubnet2"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-0f016854"
+        },
+        {
+            "AvailabilityZone": "us-east-1d",
+            "AvailabilityZoneId": "use1-az2",
+            "AvailableIpAddressCount": 4083,
+            "CidrBlock": "10.198.0.0/20",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": true,
+            "State": "available",
+            "SubnetId": "subnet-0b5d99c91c3495b04",
+            "VpcId": "vpc-0dddb86d756c4ad48",
+            "OwnerId": "650586835449",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "SubnetArn": "arn:aws:ec2:us-east-1:650586835449:subnet/subnet-0b5d99c91c3495b04"
+        },
+        {
+            "AvailabilityZone": "us-east-1b",
+            "AvailabilityZoneId": "use1-az6",
+            "AvailableIpAddressCount": 56,
+            "CidrBlock": "172.21.102.0/24",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-03a84f5a",
+            "VpcId": "vpc-59a4013c",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "StackAlias",
+                    "Value": "EntSvcs-DEV"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/EntSvcs-DEV/6ca74ce0-0e7a-11e4-8970-50e2416294a8"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "DBSubnet2"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "DEV"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "DEVDBSubnet2"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "EntSvcs-DEV"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-03a84f5a"
+        },
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az4",
+            "AvailableIpAddressCount": 247,
+            "CidrBlock": "10.2.1.0/24",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-84f26ff2",
+            "VpcId": "vpc-9b2015ff",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "DEV"
+                },
+                {
+                    "Key": "StackAlias",
+                    "Value": "EntSvcs-PublicOnly"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "DEVPublicOnlySubnet1"
+                },
+                {
+                    "Key": "Project",
+                    "Value": "Infrastructure"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "PublicOnlySubnet1"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "EntSvcs-PublicOnly"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/EntSvcs-PublicOnly/30ed4fe0-e49f-11e5-97e4-500c286f3262"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-84f26ff2"
+        },
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az4",
+            "AvailableIpAddressCount": 10,
+            "CidrBlock": "172.29.144.176/28",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-0195811a7c37a815e",
+            "VpcId": "vpc-0ae88dd7c76d73c4a",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "Subnet1"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "dev-backend-ha"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "Ha_UtmAz1"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/dev-backend-ha/6ec1fe20-6c0e-11e9-9d5e-0a55ab548dc0"
+                },
+                {
+                    "Key": "Application",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/dev-backend-ha/6ec1fe20-6c0e-11e9-9d5e-0a55ab548dc0"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "botocore-session-1556712705"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-0195811a7c37a815e"
+        },
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az4",
+            "AvailableIpAddressCount": 203,
+            "CidrBlock": "158.117.152.0/24",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-09c98a248c3b4e624",
+            "VpcId": "vpc-59a4013c",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "Apollo-Subnets"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "DEV"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "DEVProxy1"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/Apollo-Subnets/68d5f310-fc17-11e9-aa08-12f4ed1177e6"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "ApolloAZ1"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-09c98a248c3b4e624"
+        },
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az4",
+            "AvailableIpAddressCount": 250,
+            "CidrBlock": "192.168.0.0/24",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-ca97c2bc",
+            "VpcId": "vpc-bbe512dc",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "Dev-quicksite-subnet1"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "bubinakj"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-ca97c2bc"
+        },
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az4",
+            "AvailableIpAddressCount": 250,
+            "CidrBlock": "172.21.71.0/24",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-8156acf6",
+            "VpcId": "vpc-59a4013c",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Environment",
+                    "Value": "DEV"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "DEVPublicSubnet1"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/EntSvcs-DEV/6ca74ce0-0e7a-11e4-8970-50e2416294a8"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "EntSvcs-DEV"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "PublicSubnet1"
+                },
+                {
+                    "Key": "StackAlias",
+                    "Value": "EntSvcs-DEV"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-8156acf6"
+        },
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az4",
+            "AvailableIpAddressCount": 58,
+            "CidrBlock": "172.21.67.128/26",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-0f8d73d0023228200",
+            "VpcId": "vpc-59a4013c",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "DEVApiGwSubnetAZ1"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "ApiGwSubnetAZ1"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "apigw-subnet"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "DEV"
+                },
+                {
+                    "Key": "Project",
+                    "Value": "Infrastructure"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/apigw-subnet/0ad97480-10d2-11e8-a069-503aca4a5861"
+                },
+                {
+                    "Key": "StackAlias",
+                    "Value": "apigw-subnet"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-0f8d73d0023228200"
+        },
+        {
+            "AvailabilityZone": "us-east-1b",
+            "AvailabilityZoneId": "use1-az6",
+            "AvailableIpAddressCount": 10,
+            "CidrBlock": "172.29.145.128/28",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-0bdd1f3c92ec41804",
+            "VpcId": "vpc-0ae88dd7c76d73c4a",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "dev-backend-subnets"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "botocore-session-1551387215"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "dev-backend-ogw-subnet2"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "OgwAz2"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/dev-backend-subnets/eaca9c60-3b9a-11e9-92b4-128fc503e968"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-0bdd1f3c92ec41804"
+        },
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az4",
+            "AvailableIpAddressCount": 100,
+            "CidrBlock": "172.21.91.0/24",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-8d56acfa",
+            "VpcId": "vpc-59a4013c",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "AppSubnet1"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "DEVAppSubnet1"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "DEV"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "EntSvcs-DEV"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/EntSvcs-DEV/6ca74ce0-0e7a-11e4-8970-50e2416294a8"
+                },
+                {
+                    "Key": "StackAlias",
+                    "Value": "EntSvcs-DEV"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-8d56acfa"
+        },
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az4",
+            "AvailableIpAddressCount": 237,
+            "CidrBlock": "172.21.111.0/24",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-8b56acfc",
+            "VpcId": "vpc-59a4013c",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "DEVUtilSubnet1"
+                },
+                {
+                    "Key": "StackAlias",
+                    "Value": "EntSvcs-DEV"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "UtilSubnet1"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "EntSvcs-DEV"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/EntSvcs-DEV/6ca74ce0-0e7a-11e4-8970-50e2416294a8"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "DEV"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-8b56acfc"
+        },
+        {
+            "AvailabilityZone": "us-east-1b",
+            "AvailabilityZoneId": "use1-az6",
+            "AvailableIpAddressCount": 10,
+            "CidrBlock": "172.29.145.176/28",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-0618158cab8d74635",
+            "VpcId": "vpc-0ae88dd7c76d73c4a",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/dev-backend-ha/6ec1fe20-6c0e-11e9-9d5e-0a55ab548dc0"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "Subnet2"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "Ha_UtmAz2"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "dev-backend-ha"
+                },
+                {
+                    "Key": "Application",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/dev-backend-ha/6ec1fe20-6c0e-11e9-9d5e-0a55ab548dc0"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "botocore-session-1556712705"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-0618158cab8d74635"
+        },
+        {
+            "AvailabilityZone": "us-east-1b",
+            "AvailabilityZoneId": "use1-az6",
+            "AvailableIpAddressCount": 250,
+            "CidrBlock": "172.21.66.0/24",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-0fa84f56",
+            "VpcId": "vpc-59a4013c",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "ThreatSubnet2"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "EntSvcs-DEV"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/EntSvcs-DEV/6ca74ce0-0e7a-11e4-8970-50e2416294a8"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "DEVThreatSubnet2"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "DEV"
+                },
+                {
+                    "Key": "StackAlias",
+                    "Value": "EntSvcs-DEV"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-0fa84f56"
+        },
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az4",
+            "AvailableIpAddressCount": 251,
+            "CidrBlock": "172.21.119.0/24",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-084a868496bdf0233",
+            "VpcId": "vpc-59a4013c",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "DominoExecSubnetA"
+                },
+                {
+                    "Key": "Project",
+                    "Value": "dominodatalab"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/TEST-Domino-MAE-Subnets/f1773a80-ed8b-11e8-8f60-121328bc7b22"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "TESTDominoExecSubnetA"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "TEST-Domino-MAE-Subnets"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "TEST"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-084a868496bdf0233"
+        },
+        {
+            "AvailabilityZone": "us-east-1d",
+            "AvailabilityZoneId": "use1-az2",
+            "AvailableIpAddressCount": 4091,
+            "CidrBlock": "10.198.16.0/20",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": true,
+            "State": "available",
+            "SubnetId": "subnet-0d354c9708ed64440",
+            "VpcId": "vpc-0dddb86d756c4ad48",
+            "OwnerId": "650586835449",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "SubnetArn": "arn:aws:ec2:us-east-1:650586835449:subnet/subnet-0d354c9708ed64440"
+        },
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az4",
+            "AvailableIpAddressCount": 251,
+            "CidrBlock": "172.21.118.0/24",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-0f2238097a0aab475",
+            "VpcId": "vpc-59a4013c",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/TEST-Domino-MAE-Subnets/f1773a80-ed8b-11e8-8f60-121328bc7b22"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "TEST-Domino-MAE-Subnets"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "TEST"
+                },
+                {
+                    "Key": "Project",
+                    "Value": "dominodatalab"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "DominoMainSubnet"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "TESTDominoMainSubnet"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-0f2238097a0aab475"
+        },
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az4",
+            "AvailableIpAddressCount": 225,
+            "CidrBlock": "172.21.117.0/24",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-09f7ebd856efdc1d7",
+            "VpcId": "vpc-59a4013c",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "TEST-Domino-MAE-Subnets"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "DominoMainSubnetA"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "TESTDominoMainSubnetA"
+                },
+                {
+                    "Key": "Project",
+                    "Value": "dominodatalab"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "TEST"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/TEST-Domino-MAE-Subnets/f1773a80-ed8b-11e8-8f60-121328bc7b22"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-09f7ebd856efdc1d7"
+        },
+        {
+            "AvailabilityZone": "us-east-1b",
+            "AvailabilityZoneId": "use1-az6",
+            "AvailableIpAddressCount": 250,
+            "CidrBlock": "172.21.72.0/24",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-00a84f59",
+            "VpcId": "vpc-59a4013c",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "PublicSubnet2"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "EntSvcs-DEV"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "DEV"
+                },
+                {
+                    "Key": "StackAlias",
+                    "Value": "EntSvcs-DEV"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "DEVPublicSubnet2"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/EntSvcs-DEV/6ca74ce0-0e7a-11e4-8970-50e2416294a8"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-00a84f59"
+        },
+        {
+            "AvailabilityZone": "us-east-1b",
+            "AvailabilityZoneId": "use1-az6",
+            "AvailableIpAddressCount": 234,
+            "CidrBlock": "172.21.112.0/24",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-02a84f5b",
+            "VpcId": "vpc-59a4013c",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "StackAlias",
+                    "Value": "EntSvcs-DEV"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/EntSvcs-DEV/6ca74ce0-0e7a-11e4-8970-50e2416294a8"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "DEVUtilSubnet2"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "EntSvcs-DEV"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "UtilSubnet2"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "DEV"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-02a84f5b"
+        },
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az4",
+            "AvailableIpAddressCount": 75,
+            "CidrBlock": "172.21.64.0/25",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-0726af7d18631dcf7",
+            "VpcId": "vpc-59a4013c",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "DEV"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "RpaSubnetA"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "DEVRpaSubnetA"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "RPA-Subnets"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/RPA-Subnets/69939750-a27e-11e9-95ab-12926a34023c"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-0726af7d18631dcf7"
+        },
+        {
+            "AvailabilityZone": "us-east-1b",
+            "AvailabilityZoneId": "use1-az6",
+            "AvailableIpAddressCount": 82,
+            "CidrBlock": "172.21.64.128/25",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-0ea750a27230b6e6a",
+            "VpcId": "vpc-59a4013c",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "RpaSubnetB"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "DEVRpaSubnetB"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "DEV"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "RPA-Subnets"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/RPA-Subnets/69939750-a27e-11e9-95ab-12926a34023c"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-0ea750a27230b6e6a"
+        },
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az4",
+            "AvailableIpAddressCount": 251,
+            "CidrBlock": "172.21.114.0/24",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-01daf839ee395e568",
+            "VpcId": "vpc-59a4013c",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/DEV-Domino-MAE-Subnets/2dc0bbd0-cbf2-11e8-86b0-50d5ca632682"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "DEV"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "DominoMainSubnet"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "DEV-Domino-MAE-Subnets"
+                },
+                {
+                    "Key": "Project",
+                    "Value": "dominodatalab"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "DEVDominoMainSubnet"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-01daf839ee395e568"
+        },
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az4",
+            "AvailableIpAddressCount": 2033,
+            "CidrBlock": "10.2.32.0/21",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-00230249",
+            "VpcId": "vpc-9b2015ff",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "StackAlias",
+                    "Value": "EntSvcs-PublicOnly"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "DEVPubOnlySshSubnet1"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "PubOnlySshSubnet1"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/EntSvcs-PublicOnly/30ed4fe0-e49f-11e5-97e4-500c286f3262"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "DEV"
+                },
+                {
+                    "Key": "Project",
+                    "Value": "Infrastructure"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "EntSvcs-PublicOnly"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-00230249"
+        },
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az4",
+            "AvailableIpAddressCount": 68,
+            "CidrBlock": "172.21.113.0/24",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-0018a65da4a5ea346",
+            "VpcId": "vpc-59a4013c",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "DEVDominoMainSubnetA"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "DominoMainSubnetA"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "DEV-Domino-MAE-Subnets"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "DEV"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/DEV-Domino-MAE-Subnets/2dc0bbd0-cbf2-11e8-86b0-50d5ca632682"
+                },
+                {
+                    "Key": "Project",
+                    "Value": "dominodatalab"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-0018a65da4a5ea346"
+        },
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az4",
+            "AvailableIpAddressCount": 250,
+            "CidrBlock": "172.21.65.0/24",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-8f56acf8",
+            "VpcId": "vpc-59a4013c",
+            "OwnerId": "820784505615",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "StackAlias",
+                    "Value": "EntSvcs-DEV"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:820784505615:stack/EntSvcs-DEV/6ca74ce0-0e7a-11e4-8970-50e2416294a8"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "EntSvcs-DEV"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "DEV"
+                },
+                {
+                    "Key": "Creator",
+                    "Value": "grinap1"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "ThreatSubnet1"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "DEVThreatSubnet1"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:820784505615:subnet/subnet-8f56acf8"
+        }
+    ]
+}

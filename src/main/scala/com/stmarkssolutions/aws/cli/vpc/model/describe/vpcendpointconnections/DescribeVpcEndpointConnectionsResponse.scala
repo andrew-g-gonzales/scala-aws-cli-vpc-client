@@ -1,0 +1,3 @@
+package com.stmarkssolutions.aws.cli.vpc.model.describe.vpcendpointconnections
+
+case class DescribeVpcEndpointConnectionsResponse(VpcEndpointConnections:List[VpcEndpointConnection])
